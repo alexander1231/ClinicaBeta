@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_olvidar__contas_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jacky.clinicabeta.Olvidar_Contas_Activity">
+
+
+
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:background="@drawable/holi4"
+        android:text="                   ✔ Nuevo Usuario"
+        android:layout_marginTop="0dp"
+        android:textSize="20dp"
+        />
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp">
+        <TextView
+            android:text="Sexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            />
+
+        <Button
+        android:text="Masculino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+        android:id="@+id/button"
+            />
+
+        <Button
+            android:text="Femenino"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1" />
+    </TableRow>
+
+    <TableRow android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp">
+
+
+        <TextView
+            android:text="Tipo de Documento"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="14dp"
+            />
+
+        <Button
+            android:text="DNI"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:id="@+id/button2"
+            android:layout_marginLeft="40dp"/>
+
+        <Button
+            android:text="CE"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:id="@+id/button3"
+            android:layout_marginLeft="50dp"/>
+
+        <Button
+            android:text="PAS"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:id="@+id/button4"
+            android:layout_marginLeft="50dp"/>
+
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView android:text="N° de Documento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:background="@drawable/holi5"
+            android:layout_marginLeft="26dp"
+            android:inputType="number"
+            />
+
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView android:text="Nombres"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:background="@drawable/holi5"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            />
+
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView android:text="Apellido Paterno"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:background="@drawable/holi5"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            />
+
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView android:text="Apellido Materno"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:background="@drawable/holi5"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            />
+    </TableRow>
+
+
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView android:text="Fecha de Nacimiento"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="0dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:background="@drawable/holi5"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            />
+
+
+
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView android:text="Telefono"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="75dp"
+            />
+
+        <EditText android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:background="@drawable/holi5"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:inputType="datetime"
+            />
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <TextView android:text="Correo Electronico"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"/>
+
+        <EditText android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:background="@drawable/holi5"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:inputType="datetime"
+            />
+    </TableRow>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Términos y condiciones"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Siguiente"
+        android:background="@drawable/holi3"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

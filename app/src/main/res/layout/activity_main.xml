@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lytContenedorSaludo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="225dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/medical_board"
+        android:layout_weight="0.38"
+        android:layout_marginTop="-32dp"
+        android:layout_marginBottom="-16dp"
+        android:layout_gravity="center"/>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:background="@drawable/holi2"
+            android:text="                   ✔ Conoce nuestra App"
+            android:layout_marginTop="0dp"
+            android:textSize="20dp"
+            />
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N° Documento"
+            android:layout_marginRight="20dp"
+            android:textColor="#070707"/>
+
+        <EditText
+            android:id="@+id/campo_cursor"
+            android:layout_height="30dp"
+            android:layout_width="180dp"
+            android:background="@drawable/holi"
+            android:layout_marginRight="25dp"
+            android:hint="   Ingrese Usuario"
+            />
+
+
+
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Password"
+            android:layout_marginTop="20dp"
+            android:textColor="#070707"
+            />
+
+        <EditText
+            android:layout_height="30dp"
+            android:layout_width="180dp"
+            android:background="@drawable/holi"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="26dp"
+            android:hint="   Ingrese Contraseña"   />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/txt01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Cuenta Nueva"
+        android:onClick="clRegistrar"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="#070707"/>
+
+    <TextView
+        android:id="@+id/txt02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olvidaste tu contraseña"
+        android:layout_gravity="center"
+        android:onClick="clOlvidarContra"
+        android:clickable="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#070707"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:text="Siguiente"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/holi3"/>
+
+</LinearLayout>
+
+
+
